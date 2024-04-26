@@ -13,12 +13,12 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Andriod1 />}></Route>
-        <Route path="/" element={<Andriod2 />}></Route>
-        <Route path="/" element={<Andriod4 />}></Route>
-        <Route path="/" element={<Andriod5 />}></Route>
-        <Route path="/" element={<Andriod6 />}></Route>
-        <Route path="/" element={<Andriod8 />}></Route>
-        <Route path="/" element={<Andriod9 />}></Route>
+        <Route path="/2" element={<Andriod2 />}></Route>
+        <Route path="/4" element={<Andriod4 />}></Route>
+        <Route path="/5" element={<Andriod5 />}></Route>
+        <Route path="/6" element={<Andriod6 />}></Route>
+        <Route path="/8" element={<Andriod8 />}></Route>
+        <Route path="/9" element={<Andriod9 />}></Route>
       </Routes>
     </BrowserRouter>
   );
