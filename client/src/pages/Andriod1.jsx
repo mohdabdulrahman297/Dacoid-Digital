@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Button from "../components/Button";
 
 export default function Andriod1() {
   return (
@@ -11,10 +12,11 @@ export default function Andriod1() {
       <div className="font-semibold text-xl text-[#2C2B2B] mt-20 ml-5 font-abc">
         Track your Goal
       </div>
-      <div className="font-abc font-medium text-[#787878] text-md mt-3 ml-5 w-[343px] h-[60px]">
+      <div className="font-abc font-medium text-[#787878] text-md mt-3 ml-5 mr-5 w-[343px] h-[60px]">
         Don't worry if you have trouble determining your goals, We can help you
         determine your goals and track your goals
       </div>
+      <Button />
     </div>
   );
 }
