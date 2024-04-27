@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 export default function Andriod1() {
   return (
@@ -16,7 +17,9 @@ export default function Andriod1() {
         Don't worry if you have trouble determining your goals, We can help you
         determine your goals and track your goals
       </div>
-      <Button />
+      <Link to="/2">
+        <Button />
+      </Link>
     </div>
   );
 }
