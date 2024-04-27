@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      abc: [ "Montserrat", "sans-serif"]
+      abc: [ "Montserrat", "sans-serif"],
+      def: ["Roboto", "sans-serif"]
     },
   },
   plugins: [],
