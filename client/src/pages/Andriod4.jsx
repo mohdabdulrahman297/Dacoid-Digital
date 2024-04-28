@@ -76,10 +76,10 @@ export default function Andriod4() {
               <span className="sr-only">Sign in with Facebook</span>
             </button>
           </div>
-          <div className="font-abc">
-            <Link href="#">
-              Already have an account?{" "}
-              <span className="text-blue-400  underline">Login</span>
+          <div className="flex gap-2 mt-5 justify-center font-abc">
+            <p>Already Have an account?</p>
+            <Link to={"/page5"}>
+              <span className="text-blue-400 underline">Login</span>
             </Link>
           </div>
         </div>
